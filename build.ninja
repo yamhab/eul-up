@@ -8,3 +8,6 @@ rule cxx
 
 rule link
     command = $cxx $in -o $out
+
+build $build_dir/problem_0000.o: cxx $src_dir/problem_0000.cpp
+build $build_dir/problem_0000: link $build_dir/problem_0000.o
