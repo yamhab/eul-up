@@ -14,3 +14,6 @@ build $build_dir/problem_0000: link $build_dir/problem_0000.o
 
 build $build_dir/problem_0001.o: cxx $src_dir/problem_0001.cpp
 build $build_dir/problem_0001: link $build_dir/problem_0001.o
+
+build $build_dir/problem_0002.o: cxx $src_dir/problem_0002.cpp
+build $build_dir/problem_0002: link $build_dir/problem_0002.o
