@@ -1,15 +1,13 @@
 #include <iostream>
 
-using namespace std;
-
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(nullptr);
 
     unsigned long long sum = 0;
     for (unsigned long long int i = 1; i <= 630000; i += 2)
         sum += i * i;
-    cout << sum << endl;
+    std::cout << sum << '\n';
 
     return 0;
 }

@@ -1,16 +1,14 @@
 #include <iostream>
 
-using namespace std;
-
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(nullptr);
 
     int sum = 0;
     for (int i = 0; i < 1000; ++i)
         if (i % 3 == 0 || i % 5 == 0)
             sum += i;
-    cout << sum << endl;
+    std::cout << sum << '\n';
 
     return 0;
 }

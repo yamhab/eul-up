@@ -1,12 +1,10 @@
 #include <iostream>
 
-using namespace std;
-
 int fib(int n);
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(nullptr);
 
     int i = 0;
     int n = 0;
@@ -16,7 +14,7 @@ int main() {
         if (!(n % 2))
             sum += n;
     }
-    cout << sum << endl;
+    std::cout << sum << endl;
 
     return 0;
 }
